@@ -1,0 +1,2 @@
+sqoop export --connect jdbc:mysql://sandbox-hdp.hortonworks.com/movielens --username <> --password <> --driver com.mysql.jdbc.Driver --export-dir /apps/hive/warehouse/top_watched_movies --table top_watched_movies -m 1 --fields-terminated-by '\001' --lines-terminated-by '\n'
+

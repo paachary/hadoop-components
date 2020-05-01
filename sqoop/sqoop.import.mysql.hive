@@ -1,0 +1,2 @@
+sqoop import --connect jdbc:mysql://sandbox-hdp.hortonworks.com/movielens --username <> --password <> --driver com.mysql.jdbc.Driver --table top_watched_movies --split-by id -m 1 --create-hive-table --hive-import
+
